@@ -1,0 +1,75 @@
+body {
+    Font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("img/background.png");
+    background-color: hsl(0, 1%, 14%);
+    padding: 100px 125px;
+  }
+
+    span{
+    font-weight:bold;
+    color: #4CAF50;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .Login-form {
+
+      margin: auto;
+    width: 600px;
+    
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 37px;
+  }
+
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    padding: 15px 25px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #e2dfdf;
+    border-radius: 5px;
+    width: 80%;
+    background: #fff;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    font-size: 25px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (min-width: 300px) {
+    .signupbtn {
+      width: 85.5%;
+    }
+  }
+  
